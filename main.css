@@ -1,0 +1,18 @@
+#subs-form{
+   
+    width: 500px;
+    
+    background-image: url('https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' )
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+#forms{
+   margin-top: 100px;
+
+}
+.coloring{
+    color:white;
+}
