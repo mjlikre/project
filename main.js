@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     // firebase SDK, connecting the js file to firebase
     var firebaseConfig = {
