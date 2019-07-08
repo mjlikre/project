@@ -1,3 +1,5 @@
+require('./config/config');
+
 const express = require('express');
 const path = require('path');
 
@@ -11,6 +13,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/api/subs', require('./routing/apiRoutes')) ;
+
+
 
 
 const PORT = process.env.PORT || 5000;

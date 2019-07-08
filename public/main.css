@@ -1,84 +1,68 @@
 body {
-    background-image: url("./photos/bg-img.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+  background-image: url("./photos/bg-img.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.container{
-    padding-top: 100px;
+.container {
+  padding-top: 100px;
 }
-.slogan-text{
-    margin-top:auto;
-    
+.slogan-text {
+  margin-top: auto;
 }
-.section-1-slogan{
-    color:  #ff6666;   
-    text-align: right; 
-    font-size: 70px;
-    
+.section-1-slogan {
+  color: #ff6666;
+  text-align: right;
+  font-size: 70px;
 }
 
-.stats-text{
-    margin-top: auto;
-    font-size: 100px;
-    color:#ff6666;
-    
+.stats-text {
+  margin-top: auto;
+  font-size: 100px;
+  color: #ff6666;
 }
 
-#section-2-text{
-    margin-top: auto;
-    
-    
+#section-2-text {
+  margin-top: auto;
 }
 
-
-img{
-    min-width: 100%;
+img {
+  min-width: 100%;
 }
-#modal-btn{
-    float: right;
-    padding: 0;
-    border: none;
-    background: none;
+#modal-btn {
+  float: right;
+  padding: 0;
+  border: none;
+  background: none;
 }
-#modal-btn:hover{
-    color:#ff6666;
-}
-
-.normal-text{
-    font-size: 50px;
-    color: grey;
-    text-shadow: 2px 2px 10px whitesmoke;
+#modal-btn:hover {
+  color: #ff6666;
 }
 
-#logo{
-    font-size: 40px;
-    color:white;
-    text-shadow: 2px 2px 10px grey;
-
-
+.normal-text {
+  font-size: 50px;
+  color: grey;
+  text-shadow: 2px 2px 10px whitesmoke;
 }
 
+#logo {
+  font-size: 40px;
+  color: white;
+
+}
 
 @media screen and (max-width: 768px) {
-
-    
-    .section-1-slogan{
-       
-        font-size: 40px;
-    }
-    img{
-        max-width: 50%;
-    }
-    .stats-text{
-        margin-top: auto;
-        font-size: 60px;
-        
-    }
-    .normal-text{
-        font-size: 30px;
-        color: #e0e0e0;
-    }
-
-
+  .section-1-slogan {
+    font-size: 40px;
+  }
+  img {
+    max-width: 50%;
+  }
+  .stats-text {
+    margin-top: auto;
+    font-size: 60px;
+  }
+  .normal-text {
+    font-size: 30px;
+    color: #e0e0e0;
+  }
 }

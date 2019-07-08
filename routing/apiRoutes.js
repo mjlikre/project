@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../data/data');
-const mail = require('../data/email')
+const mail = require('../config/email')
 
 
 
