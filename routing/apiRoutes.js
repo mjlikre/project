@@ -1,18 +1,31 @@
-var express = require('express');
+const express = require('express');
 const router = express.Router();
-const data = require('../data/data.js');
+const data = require('../data/data');
+const mail = require('../data/email')
+
+
+
 
 router.post('/', (req, res) =>{
+
     newSubs = {
         name: req.body.name,
         email: req.body.email
     }
-    data.oush(newSubs);
+    data.push(newSubs);
     res.json(data);
     
-  
-    
+
+   
 });
+
+router.post('/mail', (req, res)=>{
+    const email = req.body.email;
+    const name = req.body.name;
+
+    mail(email, name)
+})
+
 router.get('/', (req,res)=>{
     res.json(data);
 });

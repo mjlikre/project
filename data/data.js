@@ -5,4 +5,4 @@ const subscribers = [
     }
 ]
 
-module.exports = connection;
+module.exports = subscribers;
