@@ -15,82 +15,36 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-light fixed-top"
-      style="background-color: #ff6666;"
+      class="navbar navbar-light"
     >
-      <span class="navbar-brand mb-0 h1" id="logo">DarDen.</span>
+      <span class="navbar-brand mb-0 h1" id="logo"><img src="./photos/DarDen Logo Red.png" style="width:300px;"></span>
     </nav>
     <div class="container">
       <div class="section-1 row">
         <div class="col-md-6 slogan-text">
           <h1 class="section-1-slogan">Work Wherever.</h1>
           <h1 class="section-1-slogan">Whenever.</h1>
-
-          <button
-            type="button"
-            class="btn btn-primary normal-text"
-            data-toggle="modal"
-            data-target="#exampleModal"
-            id="modal-btn"
-          >
-            Click Here!
-          </button>
-          <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Subscribe</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body" id="newDiv">
-                  <form class="text-center border border-light p-5">
-                    <p class="coloring">
-                      Our app is still under construction, we'll notify you ASAP
-                      once it's ready
-                    </p>
-                    <input
-                      type="text"
-                      id="userName"
-                      class="form-control mb"
-                      placeholder="Name"
-                    />
-
-                    <!-- Email -->
-                    <input
-                      type="email"
-                      id="userEmail"
-                      class="form-control mb"
-                      placeholder="E-mail"
-                    />
-
-                    <!-- Submit button -->
-                    <button
-                      class="btn btn-info btn-block"
-                      type="submit"
-                      id="submit-btn"
-                    >
-                      Submit
-                    </button>
-                  </form>
-                </div>
-              </div>
+          <form>
+            
+            <div class="form-1">
+              
+              <input type="text" id = 'userEmail' placeholder="Enter Your Email Address">
             </div>
-          </div>
-        </div>
+            <br>
+            <br>
+
+            <div class="form-1">
+              
+              <input type="text" id = 'userName' placeholder="Enter Your Name">
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <button type="button" id = 'submit-btn' class="btn btn-light form-1">Access Beta</button>
+          </form>
+
+        </div> 
         <div class="col-md-6" id="image-1">
           <img src="./photos/girl-beach.jpeg" alt="" />
         </div>
@@ -98,8 +52,11 @@
 
       <br />
       <br />
+      <p class = 'between-line-text right-aligned'>By connecting people the right way,</p>
+      <p class = 'between-line-text right-aligned'> we can change the face of work</p>
       <br />
       <br />
+      <p id = 'logo'>For good.</p>
 
       <div class="section-2 row">
         <div class="col-md" id="image-2">
@@ -107,25 +64,46 @@
         </div>
         <div class="col-md">
           <div id="section-2-text">
-            <h1 class="stats-text">30%<span class="normal-text">ok</span></h1>
-            <h1 class="stats-text">56%<span class="normal-text">ok</span></h1>
-            <h1 class="stats-text">12%<span class="normal-text">ok</span></h1>
+            <h1 class="stats-text">2.5h</h1>
+            <p class = "normal-text">lost in commute, daily.</p>
+            <h1 class="stats-text">40% </h1>
+            <p class="normal-text">annual income transportation cost</p>
+            <h1 class="stats-text">21.6</h1>
+            <p class="normal-text">USD per hour</p>
+            <h1 class="stats-text">44.7</h1>
+            <p class="normal-text">hours per week</p>
           </div>
         </div>
       </div>
 
       <br />
       <br />
+      <p class = 'between-line-text'> People Need Some Sort of Income to Keep </p>
+      <p class = 'between-line-text'> Themselves Onboarded in Society.</p>
       <br />
       <br />
 
+      <p class = 'right-aligned' id = 'logo'>A Platform For Work.</p>
+
       <div class="section-3 row">
         <div class="col-md-6">
-          <h1>It's like uber, but for jobs.</h1>
+          
         </div>
         <div class="image-3 col-md-6">
-          <img src="" alt="" />
+          <img src="./photos/platform-image.png" alt=""/>
         </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class = 'row'>
+        <div class = 'col-md-6'>
+          <img src="./photos/CDMX Map.png" alt="">
+        </div>
+        <div class = 'col-md-6'></div>
       </div>
     </div>
 
