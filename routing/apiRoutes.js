@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data/data');
+const connection = require('../data/data.js');
 const mail = require('../config/email')
 
 
@@ -12,10 +12,16 @@ router.post('/', (req, res) =>{
         name: req.body.name,
         email: req.body.email
     }
-    data.push(newSubs);
-    res.json(data);
+    connection.query("INSERT INTO email_list SET ?",
+    {
+        user_name: newSubs.name,
+        user_email: newSubs.email
+    }), 
+    function(err){
+        if (err) throw err;
+        console.log('success');
+    }
     
-
    
 });
 
