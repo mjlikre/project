@@ -25,12 +25,12 @@ router.post('/', (req, res) =>{
    
 });
 
-// router.post('/mail', (req, res)=>{
-//     const email = req.body.email;
-//     const name = req.body.name;
+router.post('/mail', (req, res)=>{
+    const email = req.body.email;
+    const name = req.body.name;
 
-//     mail(email, name)
-// })
+    mail(email, name)
+})
 
 // router.get('/', (req,res)=>{
 //     res.json(data);
